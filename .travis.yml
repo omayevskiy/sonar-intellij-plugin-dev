@@ -9,7 +9,7 @@ addons:
       secure: "HrIIQ6GEnPEtCPk1BtYX805mhoriSu0ULFea72c/1vjjOxG5Ms8Jv2gEjYwnligIaDpb7cEqvgPW6aJxUcvLg/HFLKkEnE4aqgjkj9Xm807/8FRfdrize/16AuaPDZaoF4Z/eeiixS08Iw8R4JLmCVLkrDaz4/pxtsYcz+tn8bpks7w3LGHEnj1o2XUl7svpSafjFJZV0Qr5GK6PLDU50by6ZmhPm3VN1lf23eo5TWNXbZ5KX/38t6Fzzu1xP6e8af+oJ3MGjk/eEcfePw0fZiSM2fir1xGMUJWPc+9C2abC3LCgMl4gh+T1S0Z9GYHNgVS11kX16DvntkzyBpxFaSM0DgJANyfopnc/2Dagp2bBOR78se0pL01fiEhrO+B4M9I7/B4qgHEZk9xCcc99MxmVF0D+siXpyN6uwGnvp0Qw0ZRx+weazU/VoJMeriC1sH9AP1HL+CdGpxO41RsLJuxlb4LtdpugdLbDCl3dTM+BAR8PsZnDMPpt/LW/MaXv4Tt/yCJJpe9K0K093jpSEOU8w4t1QJFWpdtMV+uWBjGC0F2R1ahgxZvEVVMp8Rii2Jzqsp5nJDgnFnSJ10+JpduzcVAEsMxHM76ooRSs6S79cU7U8LrpAK22JIlC57e7gS8C5P4kDN+lwrcBMyIcEeXQ6Gvza0/crB9CKS5cgJs="
 
 jdk:
-  - openjdk8
+  - openjdk11
 
 script:
   - ./gradlew sonarqube
